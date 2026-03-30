@@ -1,4 +1,4 @@
-# 🏡 Airbnb Market Analysis Dashboard (Tableau Project)
+# 🏡 Airbnb Market Analysis
 
 ![Image Alt](https://github.com/wilhmhkm/Airbnb_Market_Analysis/blob/5cb27c9d99921cda640b185e6f1d2fa9e92423db/Dashboard%201.png)
 
