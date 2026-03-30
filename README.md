@@ -1,5 +1,7 @@
 # 🏡 Airbnb Market Analysis Dashboard (Tableau Project)
 
+![Image Alt](image_url)
+
 ## 📌 Executive Summary
 This project presents an end-to-end data analytics workflow using Tableau, focused on analyzing an Airbnb dataset from Seattle. The objective is to identify the most profitable locations and property types for launching an Airbnb rental business.
 
