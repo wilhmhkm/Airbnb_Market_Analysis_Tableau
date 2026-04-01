@@ -3,16 +3,11 @@
 ![Image Alt](https://github.com/wilhmhkm/Airbnb_Market_Analysis/blob/d80bc1a8c4c65287bc9337429022d5229b94f543/Project%20Dashboard.jpg)
 
 ## 📌 Executive Summary
-This project presents an end-to-end data analytics workflow using Tableau, focused on analyzing an Airbnb dataset from Seattle. The objective is to identify the most profitable locations and property types for launching an Airbnb rental business.
+In this project, I built an end-to-end data analytics workflow in Tableau using an Airbnb dataset from Seattle. My goal was to identify the most profitable locations and property types for launching an Airbnb rental business.
 
-The dashboard transforms raw data into actionable insights, helping answer key business questions:
-- 📍 Where to invest (high-performing zip codes)
-- 💰 Pricing strategy (average daily rates)
-- 📅 When to rent (seasonality trends)
-- 🏠 What to buy (optimal bedroom count)
-- ⚔️ Market competition (listing distribution)
+I take raw, unstructured data and turn it into actionable insights that directly answer business questions. Through the dashboard, I break down where to invest by highlighting high-performing zip codes, how to price using average daily rates, when to rent by analyzing seasonality trends, what to buy by evaluating the optimal bedroom count, and how competitive the market is through listing distribution.
 
-The final result is an interactive dashboard designed for decision-making and portfolio demonstration.
+The final output is an interactive dashboard designed not just for visualization, but for real decision-making, while also demonstrating how I approach business problems analytically from end to end.
 
 ---
 
@@ -26,103 +21,44 @@ The final result is an interactive dashboard designed for decision-making and po
 
 ## 🚀 Data Processing Steps
 
-### 1. Data Collection & Preparation
-- Imported Airbnb dataset including:
-  - Listings (property details)
-  - Calendar (pricing & availability)
-  - Reviews (customer feedback)
-- Merged multiple CSV files into a single Excel file
+I start by importing the Airbnb dataset, which includes listings for property details, calendar data for pricing and availability, and reviews for customer feedback. I then consolidate multiple CSV files into a single Excel file to create a unified working dataset.
 
-### 2. Data Understanding
-- Key fields identified:
-  - Location: Zip code, latitude, longitude
-  - Financials: Price, fees
-  - Property attributes: Bedrooms, bathrooms
-- Removed irrelevant columns
+Next, I identify the key fields that matter for analysis. This includes location data such as zip code and coordinates, financial metrics like price and fees, and property attributes such as bedrooms and bathrooms. I also remove irrelevant columns to keep the dataset focused and efficient.
 
-### 3. Data Modeling (Joins)
-- Joined datasets using:
-  - `Listings.id = Calendar.listing_id`
-  - `Listings.id = Reviews.listing_id`
-- Validated joins to ensure accuracy
-- Removed unused tables (e.g., Reviews) to improve performance
+I join the datasets using Listings.id with Calendar.listing_id and Reviews.listing_id. After validating the joins to ensure accuracy, I remove unused tables like Reviews to improve performance and keep the model clean.
 
-### 4. Data Cleaning & Optimization
-- Filtered dataset to **2016 only**
-- Removed:
-  - Null values
-  - Invalid entries (e.g., 0 bedrooms)
-- Reduced dataset size to fit Tableau limits
+I filter the dataset to focus on 2016 data only to maintain consistency. I remove null values and invalid entries such as listings with zero bedrooms. I also reduce the dataset size so it performs efficiently within Tableau.
 
-### 5. Feature Engineering
-- Converted numerical fields (e.g., bedrooms) into categorical dimensions
-- Created calculated metrics:
-  - Average price
-  - Distinct listing count
+I convert numerical fields like bedrooms into categorical dimensions to make analysis more intuitive. I also create calculated metrics such as average price and distinct listing count to support deeper insights.
 
-### 6. Data Visualization
-Built 5 key visualizations:
-1. Average Price by Zip Code (Bar Chart)
-2. Price Distribution Map (Geographical View)
-3. Revenue Trend Over Time (Time Series)
-4. Average Price by Bedroom Count
-5. Listing Count by Bedroom Count
+I build five key visualizations to answer core business questions. These include average price by zip code, a geographical price distribution map, revenue trends over time, average price by bedroom count, and listing count by bedroom count.
 
-### 7. Dashboard Creation
-- Combined all visualizations into a single dashboard
-- Enabled interactive filtering
-- Structured layout for storytelling and clarity
+Finally, I bring everything together into a single interactive dashboard. I enable filtering for better user control and structure the layout to guide the viewer through a clear, logical story.
 
 ---
 
 ## 📊 Key Insights
 
-### 📍 Location Matters
-- Certain zip codes (e.g., 98134) show significantly higher average prices
-- High-value areas are geographically clustered
+From the analysis, I find that certain zip codes such as 98134 consistently show higher average prices, and these high-value areas tend to cluster geographically, indicating strong location-based demand.
 
-### 📅 Strong Seasonality
-- Peak revenue periods:
-  - Summer months
-  - Year-end holidays
-- Low demand observed in early-year months (Jan–Feb)
+I observe clear seasonality trends, with peak revenue occurring during the summer months and year-end holidays. In contrast, demand drops noticeably in the early months of the year, particularly January and February.
 
-### 🏠 Bedrooms Drive Pricing
-- Larger properties (5–6 bedrooms) command higher prices
-- Smaller units dominate supply but yield lower revenue per listing
+Larger properties with five to six bedrooms command significantly higher prices. However, smaller units dominate the market supply, even though they generate lower revenue per listing.
 
-### ⚔️ Market Competition
-- High competition:
-  - 1-bedroom listings
-- Low competition:
-  - 4–6 bedroom listings
+Competition is highest in the one-bedroom segment, where listings are heavily concentrated. In contrast, four to six bedroom properties face much lower competition.
 
-### 💰 Revenue vs Volume Trade-off
-- Smaller units:
-  - High volume, lower pricing
-- Larger homes:
-  - Lower volume, higher profitability
+There is a clear trade-off in the market. Smaller units offer higher volume but lower pricing, while larger homes have lower volume but deliver stronger profitability per listing.
 
 ---
 
 ## 💡 Recommendations
 
-### 1. Invest in High-Value Locations
-Focus on zip codes with high average prices and strong demand.
+I focus on zip codes with consistently high average prices and strong demand signals, as these areas offer better returns.
 
-### 2. Target Larger Properties
-Invest in 4–6 bedroom homes to maximize pricing power and reduce competition.
+I prioritize four to six bedroom homes, where pricing power is stronger and competition is lower, creating a more favorable investment position.
 
-### 3. Optimize Rental Timing
-List properties during peak seasons:
-- Summer
-- Year-end holidays
+I align listing strategies with peak demand periods, particularly during the summer and year-end holidays, to maximize revenue potential.
 
-### 4. Avoid Oversaturated Segments
-Reduce focus on highly competitive 1-bedroom listings.
+I reduce exposure to highly competitive segments such as one-bedroom listings, where differentiation and pricing power are limited.
 
-### 5. Expand Future Analysis
-Enhance insights by including:
-- Customer reviews and ratings
-- Occupancy rates
-- Pricing strategies (weekly/monthly)
+To deepen the analysis further, I would incorporate additional factors such as customer reviews and ratings, occupancy rates, and more advanced pricing strategies like weekly and monthly optimization.
