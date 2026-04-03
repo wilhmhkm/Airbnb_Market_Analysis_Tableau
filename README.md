@@ -2,6 +2,10 @@
 
 ![Image Alt](https://github.com/wilhmhkm/Airbnb_Market_Analysis/blob/d80bc1a8c4c65287bc9337429022d5229b94f543/Project%20Dashboard.jpg)
 
+<p align="center">
+  <a href="https://public.tableau.com/views/Video5-AirBnBFullProject/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">View Interactive Dashboard Here</a>
+</p>
+
 ## 📌 Executive Summary
 In this project, I built an end-to-end data analytics workflow in Tableau using an Airbnb dataset from Seattle. My goal was to identify the most profitable locations and property types for launching an Airbnb rental business.
 
