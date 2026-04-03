@@ -3,7 +3,7 @@
 ![Image Alt](https://github.com/wilhmhkm/Airbnb_Market_Analysis/blob/d80bc1a8c4c65287bc9337429022d5229b94f543/Project%20Dashboard.jpg)
 
 <p align="center">
-  <a href="https://public.tableau.com/views/Video5-AirBnBFullProject/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">View Interactive Dashboard Here</a>
+  <a href="https://github.com/wilhmhkm/Airbnb_Market_Analysis_Tableau/blob/94a20a328664a332a02d5877c8c52deac1cbe086/Project%20Dashboard.jpg">View Interactive Dashboard Here</a>
 </p>
 
 ## 📌 Executive Summary
